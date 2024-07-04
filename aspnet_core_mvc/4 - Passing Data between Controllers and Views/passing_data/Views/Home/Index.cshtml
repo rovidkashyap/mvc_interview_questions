@@ -1,0 +1,9 @@
+﻿
+<p>@ViewData["Message"]</p>
+
+<p>@ViewBag.Message</p>
+
+<form asp-controller="Home" asp-action="ProcessData" method="post">
+    <input type="text" name="inputData" />
+    <button type="submit">Submit</button>
+</form>
