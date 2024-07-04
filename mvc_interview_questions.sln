@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Filters in Core MVC", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "filters_in_core_mvc", "aspnet_core_mvc\1 - Filters in Core MVC\filters_in_core_mvc\filters_in_core_mvc.csproj", "{C14C6EDF-24F0-4308-A44B-016834F053DC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Anti-Forgery Token in Core MVC", "2 - Anti-Forgery Token in Core MVC", "{ECB10148-D7E6-4569-A053-13FC5FA35F5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "antiforgery_token", "aspnet_core_mvc\2 - Anti-Forgery Token in Core MVC\antiforgery_token\antiforgery_token.csproj", "{F1412951-EF71-4C27-BE3C-2AF895F71669}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,10 @@ Global
 		{C14C6EDF-24F0-4308-A44B-016834F053DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C14C6EDF-24F0-4308-A44B-016834F053DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C14C6EDF-24F0-4308-A44B-016834F053DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1412951-EF71-4C27-BE3C-2AF895F71669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1412951-EF71-4C27-BE3C-2AF895F71669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1412951-EF71-4C27-BE3C-2AF895F71669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1412951-EF71-4C27-BE3C-2AF895F71669}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +34,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8D38E5EA-7B85-4CE8-9A4C-3430D1B5532A} = {C2DC1743-0D3B-407E-A0FB-464D060CB0D3}
 		{C14C6EDF-24F0-4308-A44B-016834F053DC} = {8D38E5EA-7B85-4CE8-9A4C-3430D1B5532A}
+		{ECB10148-D7E6-4569-A053-13FC5FA35F5C} = {C2DC1743-0D3B-407E-A0FB-464D060CB0D3}
+		{F1412951-EF71-4C27-BE3C-2AF895F71669} = {ECB10148-D7E6-4569-A053-13FC5FA35F5C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6517531D-16FD-4F80-8221-B78FAAFCA8E7}
