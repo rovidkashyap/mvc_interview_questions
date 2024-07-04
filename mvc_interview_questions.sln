@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Anti-Forgery Token in C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "antiforgery_token", "aspnet_core_mvc\2 - Anti-Forgery Token in Core MVC\antiforgery_token\antiforgery_token.csproj", "{F1412951-EF71-4C27-BE3C-2AF895F71669}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - ViewData, ViewBag and TempData", "3 - ViewData, ViewBag and TempData", "{4870DDCC-F869-44E5-8CDF-4D896F8BF878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "viewbag_viewdata_tempdata", "aspnet_core_mvc\3 - ViewData, ViewBag and TempData\viewbag_viewdata_tempdata\viewbag_viewdata_tempdata.csproj", "{0FE300DC-4FB8-4F5C-8089-C2EECC6812CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,10 @@ Global
 		{F1412951-EF71-4C27-BE3C-2AF895F71669}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1412951-EF71-4C27-BE3C-2AF895F71669}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1412951-EF71-4C27-BE3C-2AF895F71669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE300DC-4FB8-4F5C-8089-C2EECC6812CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE300DC-4FB8-4F5C-8089-C2EECC6812CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE300DC-4FB8-4F5C-8089-C2EECC6812CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE300DC-4FB8-4F5C-8089-C2EECC6812CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +44,8 @@ Global
 		{C14C6EDF-24F0-4308-A44B-016834F053DC} = {8D38E5EA-7B85-4CE8-9A4C-3430D1B5532A}
 		{ECB10148-D7E6-4569-A053-13FC5FA35F5C} = {C2DC1743-0D3B-407E-A0FB-464D060CB0D3}
 		{F1412951-EF71-4C27-BE3C-2AF895F71669} = {ECB10148-D7E6-4569-A053-13FC5FA35F5C}
+		{4870DDCC-F869-44E5-8CDF-4D896F8BF878} = {C2DC1743-0D3B-407E-A0FB-464D060CB0D3}
+		{0FE300DC-4FB8-4F5C-8089-C2EECC6812CF} = {4870DDCC-F869-44E5-8CDF-4D896F8BF878}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6517531D-16FD-4F80-8221-B78FAAFCA8E7}
