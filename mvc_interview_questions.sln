@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Passing Data between Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "passing_data", "aspnet_core_mvc\4 - Passing Data between Controllers and Views\passing_data\passing_data.csproj", "{4F92E855-1127-488E-8770-4188616710B3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Routing in Core MVC", "5 - Routing in Core MVC", "{749FFEEC-BA3B-4BF3-929C-2E666889DFA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "routing_in_core_mvc", "aspnet_core_mvc\5 - Routing in Core MVC\routing_in_core_mvc\routing_in_core_mvc.csproj", "{7480E387-6CC2-49F0-B214-0862D3129937}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,10 @@ Global
 		{4F92E855-1127-488E-8770-4188616710B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F92E855-1127-488E-8770-4188616710B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F92E855-1127-488E-8770-4188616710B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7480E387-6CC2-49F0-B214-0862D3129937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7480E387-6CC2-49F0-B214-0862D3129937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7480E387-6CC2-49F0-B214-0862D3129937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7480E387-6CC2-49F0-B214-0862D3129937}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +64,8 @@ Global
 		{0FE300DC-4FB8-4F5C-8089-C2EECC6812CF} = {4870DDCC-F869-44E5-8CDF-4D896F8BF878}
 		{F7011139-0453-4C09-B2EB-C8BE01D79BBE} = {C2DC1743-0D3B-407E-A0FB-464D060CB0D3}
 		{4F92E855-1127-488E-8770-4188616710B3} = {F7011139-0453-4C09-B2EB-C8BE01D79BBE}
+		{749FFEEC-BA3B-4BF3-929C-2E666889DFA4} = {C2DC1743-0D3B-407E-A0FB-464D060CB0D3}
+		{7480E387-6CC2-49F0-B214-0862D3129937} = {749FFEEC-BA3B-4BF3-929C-2E666889DFA4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6517531D-16FD-4F80-8221-B78FAAFCA8E7}
