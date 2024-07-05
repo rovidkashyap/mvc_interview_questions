@@ -29,6 +29,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Partial Views in Core M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "partial_views", "aspnet_core_mvc\6 - Partial Views in Core MVC\partial_views\partial_views.csproj", "{6C1D1CFE-A75A-4A7A-AECF-AAE1CB783F27}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 - ASP.Net MVC vs ASP.Net Core MVC", "7 - ASP.Net MVC vs ASP.Net Core MVC", "{7264700B-6D13-46C7-8934-40249CC55713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvc_vs_core_mvc", "aspnet_core_mvc\7 - ASP.Net MVC vs ASP.Net Core MVC\mvc_vs_core_mvc\mvc_vs_core_mvc.csproj", "{E67DBDBC-D311-46CB-8F6F-4A84F1FCE8B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +63,10 @@ Global
 		{6C1D1CFE-A75A-4A7A-AECF-AAE1CB783F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C1D1CFE-A75A-4A7A-AECF-AAE1CB783F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C1D1CFE-A75A-4A7A-AECF-AAE1CB783F27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67DBDBC-D311-46CB-8F6F-4A84F1FCE8B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67DBDBC-D311-46CB-8F6F-4A84F1FCE8B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67DBDBC-D311-46CB-8F6F-4A84F1FCE8B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67DBDBC-D311-46CB-8F6F-4A84F1FCE8B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +84,8 @@ Global
 		{7480E387-6CC2-49F0-B214-0862D3129937} = {749FFEEC-BA3B-4BF3-929C-2E666889DFA4}
 		{759C5AC7-0206-4CFE-80D3-D771198BE964} = {C2DC1743-0D3B-407E-A0FB-464D060CB0D3}
 		{6C1D1CFE-A75A-4A7A-AECF-AAE1CB783F27} = {759C5AC7-0206-4CFE-80D3-D771198BE964}
+		{7264700B-6D13-46C7-8934-40249CC55713} = {C2DC1743-0D3B-407E-A0FB-464D060CB0D3}
+		{E67DBDBC-D311-46CB-8F6F-4A84F1FCE8B0} = {7264700B-6D13-46C7-8934-40249CC55713}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6517531D-16FD-4F80-8221-B78FAAFCA8E7}
