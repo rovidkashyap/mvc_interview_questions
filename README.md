@@ -9,3 +9,14 @@
 7. Difference between `ASP.Net MVC` and ASP.Net Core MVC`?
 8. Difference between `IActionResult` vs `ActionResult` in ASP.Net Core MVC?
 9. What are the methods to add `Constraints` to Route?
+10. What is `Session` and how to use it in ASP.Net Core MVC?
+11. What is the `Lifecycle` of ASP.Net Core MVC Application?
+12. Different types of `Return Types` in ASP.Net Core MVC?
+13. What is `ViewStart` in ASP.Net Core MVC?
+14. Difference between `RenderBody()` and `RenderPage()` in ASP.Net Core MVC?
+15. How to handle `State Management` in ASP.Net Core MVC?
+16. How do you return `JSON Response` from Action Method in ASP.Net Core MVC?
+17. What is `Output Caching` in ASP.Net Core MVC?
+18. What are `Non-Action` Methods in ASP.Net Core MVC?
+19. Explain different types of `Filters` in ASP.Net Core MVC?
+20. What is `Server-Side` Validation in ASP.Net Core MVC?
