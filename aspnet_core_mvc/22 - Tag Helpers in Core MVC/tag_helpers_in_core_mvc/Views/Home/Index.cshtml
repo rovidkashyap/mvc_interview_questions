@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+@* Form Tag Helper *@
+<form asp-action="Create" asp-controller="Home" method="post">
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <button type="submit">Submit</button>
+</form>
+
+@* Input Tag Helper *@
+<input asp-for="Name" class="form-control" />
+
+@* Label Tag Helper *@
+<label asp-for="Name" class="control-label"></label>
+
+@* Validation Message Tag Helper *@
+<span asp-validation-for="Name" class="text-danger"></span>
+
+@* Anchor Tag Helper *@
+<a asp-controller="Home" asp-action="Index">Home</a>
+
+@* Using Custom Tag Helper *@
+<email-link address="example@example.com" display-text="Email Us"></email-link>
