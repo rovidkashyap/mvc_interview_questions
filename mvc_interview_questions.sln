@@ -101,6 +101,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "23 - View Components in Cor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "view_components_in_core_mvc", "aspnet_core_mvc\23 - View Components in Core MVC\view_components_in_core_mvc\view_components_in_core_mvc.csproj", "{50212567-632A-46C7-A862-98F45182F5B7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "24 - Client-Side Dependencies in Core MVC", "24 - Client-Side Dependencies in Core MVC", "{BD1EC40A-6F1E-46CC-910A-7DA677ED7977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "client_side_dependencies", "aspnet_core_mvc\24 - Client-Side Dependencies in Core MVC\client_side_dependencies\client_side_dependencies.csproj", "{FDA5BAE5-B397-439B-BA37-6226D15DCD11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -203,6 +207,10 @@ Global
 		{50212567-632A-46C7-A862-98F45182F5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50212567-632A-46C7-A862-98F45182F5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50212567-632A-46C7-A862-98F45182F5B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDA5BAE5-B397-439B-BA37-6226D15DCD11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA5BAE5-B397-439B-BA37-6226D15DCD11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA5BAE5-B397-439B-BA37-6226D15DCD11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA5BAE5-B397-439B-BA37-6226D15DCD11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -256,6 +264,8 @@ Global
 		{B7339CE6-3374-4F9B-9A15-2C764D9253AD} = {FB209BD2-3508-4673-8F23-7A940F01A0F1}
 		{4C79B034-CD11-4D9C-B2F6-CDA96FD9F8A6} = {C2DC1743-0D3B-407E-A0FB-464D060CB0D3}
 		{50212567-632A-46C7-A862-98F45182F5B7} = {4C79B034-CD11-4D9C-B2F6-CDA96FD9F8A6}
+		{BD1EC40A-6F1E-46CC-910A-7DA677ED7977} = {C2DC1743-0D3B-407E-A0FB-464D060CB0D3}
+		{FDA5BAE5-B397-439B-BA37-6226D15DCD11} = {BD1EC40A-6F1E-46CC-910A-7DA677ED7977}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6517531D-16FD-4F80-8221-B78FAAFCA8E7}
