@@ -41,6 +41,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 - Route Constraints in Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "route_constraint", "aspnet_core_mvc\9 - Route Constraints in Core MVC\route_constraint\route_constraint.csproj", "{B1A3D13D-01BD-48A6-B798-3BF73E0C1D23}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 - Session in Core MVC", "10 - Session in Core MVC", "{9EA395C6-DDA0-4B17-8FF2-EF491A80513A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session_in_core_mvc", "aspnet_core_mvc\10 - Session in Core MVC\session_in_core_mvc\session_in_core_mvc.csproj", "{09007305-4C3C-4D54-A4DA-5CA83837DD76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +87,10 @@ Global
 		{B1A3D13D-01BD-48A6-B798-3BF73E0C1D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1A3D13D-01BD-48A6-B798-3BF73E0C1D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1A3D13D-01BD-48A6-B798-3BF73E0C1D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09007305-4C3C-4D54-A4DA-5CA83837DD76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09007305-4C3C-4D54-A4DA-5CA83837DD76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09007305-4C3C-4D54-A4DA-5CA83837DD76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09007305-4C3C-4D54-A4DA-5CA83837DD76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +114,8 @@ Global
 		{C487D86E-3523-4A00-9BDB-E655D0105E1A} = {CCFA2C06-FD96-43FA-9D20-44220030B7EE}
 		{061A7ADE-AE55-4D3F-A027-A9F0C43316FC} = {C2DC1743-0D3B-407E-A0FB-464D060CB0D3}
 		{B1A3D13D-01BD-48A6-B798-3BF73E0C1D23} = {061A7ADE-AE55-4D3F-A027-A9F0C43316FC}
+		{9EA395C6-DDA0-4B17-8FF2-EF491A80513A} = {C2DC1743-0D3B-407E-A0FB-464D060CB0D3}
+		{09007305-4C3C-4D54-A4DA-5CA83837DD76} = {9EA395C6-DDA0-4B17-8FF2-EF491A80513A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6517531D-16FD-4F80-8221-B78FAAFCA8E7}
