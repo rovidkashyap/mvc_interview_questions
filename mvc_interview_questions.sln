@@ -61,6 +61,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14 - RenderBody vs RenderPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "renderbody_vs_renderpage", "aspnet_core_mvc\14 - RenderBody vs RenderPage in Core MVC\renderbody_vs_renderpage\renderbody_vs_renderpage.csproj", "{6ABC3046-4AFE-4BA5-8064-3619529A62F1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15 - State Management in Core MVC", "15 - State Management in Core MVC", "{2933BC16-1643-4D3E-85AD-556E23AA82A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "state_management_in_core_mvc", "aspnet_core_mvc\15 - State Management in Core MVC\state_management_in_core_mvc\state_management_in_core_mvc.csproj", "{D9AFCC67-B67C-4604-844F-9FE152C460F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,10 @@ Global
 		{6ABC3046-4AFE-4BA5-8064-3619529A62F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6ABC3046-4AFE-4BA5-8064-3619529A62F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6ABC3046-4AFE-4BA5-8064-3619529A62F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9AFCC67-B67C-4604-844F-9FE152C460F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9AFCC67-B67C-4604-844F-9FE152C460F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9AFCC67-B67C-4604-844F-9FE152C460F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9AFCC67-B67C-4604-844F-9FE152C460F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -156,6 +164,8 @@ Global
 		{7572A78E-BC09-4811-A28F-E3C449F992F2} = {01F5592D-11E1-413D-BB9E-6FEC52058BB4}
 		{8AF4922D-9D1F-44BB-BAC4-A5F79CB6B4AF} = {C2DC1743-0D3B-407E-A0FB-464D060CB0D3}
 		{6ABC3046-4AFE-4BA5-8064-3619529A62F1} = {8AF4922D-9D1F-44BB-BAC4-A5F79CB6B4AF}
+		{2933BC16-1643-4D3E-85AD-556E23AA82A6} = {C2DC1743-0D3B-407E-A0FB-464D060CB0D3}
+		{D9AFCC67-B67C-4604-844F-9FE152C460F4} = {2933BC16-1643-4D3E-85AD-556E23AA82A6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6517531D-16FD-4F80-8221-B78FAAFCA8E7}
