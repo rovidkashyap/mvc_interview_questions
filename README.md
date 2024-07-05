@@ -18,5 +18,4 @@
 16. How do you return `JSON Response` from Action Method in ASP.Net Core MVC?
 17. What is `Output Caching` in ASP.Net Core MVC?
 18. What are `Non-Action` Methods in ASP.Net Core MVC?
-19. Explain different types of `Filters` in ASP.Net Core MVC?
-20. What is `Server-Side` Validation in ASP.Net Core MVC?
+19. What is `Server-Side` Validation in ASP.Net Core MVC?
