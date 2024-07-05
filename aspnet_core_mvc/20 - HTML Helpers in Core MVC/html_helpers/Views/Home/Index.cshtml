@@ -1,0 +1,22 @@
+﻿@model html_helpers.Controllers.UserViewModel
+
+
+@* Standard HTML Helpers *@
+
+@Html.TextBox("name", "Rovid Kashyap")
+@Html.TextArea("description", "Enter your description here")
+@Html.CheckBox("isActive", true)
+@Html.RadioButton("gender", "Male", true)
+@Html.DropDownList("countries", new SelectList(new[] { "USA", "Canada", "UK" }))
+
+@* Strongly-Typed HTML Helpers *@
+
+<form>
+    @Html.TextBoxFor(m => m.Name)
+    @Html.TextAreaFor(m => m.Description)
+    @Html.CheckBoxFor(m => m.IsActive)
+    @Html.RadioButtonFor(m => m.Gender, "Male")
+    @Html.RadioButtonFor(m => m.Gender, "Female")
+    @Html.DropDownListFor(m => m.Country, new SelectList(new[] { "USA", "Canada", "UK" }))
+    <button type="submit">Submit</button>
+</form>
