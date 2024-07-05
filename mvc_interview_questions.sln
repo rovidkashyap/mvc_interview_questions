@@ -37,6 +37,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8 - IActionResult vs Action
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iactionresult_vs_actionresult", "aspnet_core_mvc\8 - IActionResult vs ActionResult\iactionresult_vs_actionresult\iactionresult_vs_actionresult.csproj", "{C487D86E-3523-4A00-9BDB-E655D0105E1A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 - Route Constraints in Core MVC", "9 - Route Constraints in Core MVC", "{061A7ADE-AE55-4D3F-A027-A9F0C43316FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "route_constraint", "aspnet_core_mvc\9 - Route Constraints in Core MVC\route_constraint\route_constraint.csproj", "{B1A3D13D-01BD-48A6-B798-3BF73E0C1D23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,10 @@ Global
 		{C487D86E-3523-4A00-9BDB-E655D0105E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C487D86E-3523-4A00-9BDB-E655D0105E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C487D86E-3523-4A00-9BDB-E655D0105E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1A3D13D-01BD-48A6-B798-3BF73E0C1D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A3D13D-01BD-48A6-B798-3BF73E0C1D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A3D13D-01BD-48A6-B798-3BF73E0C1D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A3D13D-01BD-48A6-B798-3BF73E0C1D23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,6 +104,8 @@ Global
 		{E67DBDBC-D311-46CB-8F6F-4A84F1FCE8B0} = {7264700B-6D13-46C7-8934-40249CC55713}
 		{CCFA2C06-FD96-43FA-9D20-44220030B7EE} = {C2DC1743-0D3B-407E-A0FB-464D060CB0D3}
 		{C487D86E-3523-4A00-9BDB-E655D0105E1A} = {CCFA2C06-FD96-43FA-9D20-44220030B7EE}
+		{061A7ADE-AE55-4D3F-A027-A9F0C43316FC} = {C2DC1743-0D3B-407E-A0FB-464D060CB0D3}
+		{B1A3D13D-01BD-48A6-B798-3BF73E0C1D23} = {061A7ADE-AE55-4D3F-A027-A9F0C43316FC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6517531D-16FD-4F80-8221-B78FAAFCA8E7}
