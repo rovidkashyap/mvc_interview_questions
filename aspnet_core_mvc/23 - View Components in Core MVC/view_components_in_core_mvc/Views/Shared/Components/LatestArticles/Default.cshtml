@@ -1,0 +1,8 @@
+﻿@Model  IEnumerable<view_components_in_core_mvc.Models.Article>
+
+<ul>
+    @foreach (var article in Model)
+        {
+            <li>@article.Title</li>
+        }
+</ul>
