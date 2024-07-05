@@ -24,7 +24,7 @@
 22. What are `Tag Helpers`?
 23. What are `View Components` in ASP.Net Core MVC?
 24. How do you manage Client-Side Dependencies in ASP.Net Core Application?
-25. Describe the process of creating `Custom Tag Helper` in ASP.Net Core MVC?
+25. Describe the process of creating `Custom HTML Helper` in ASP.Net Core MVC?
 
 This is a List of Questions mostly asked during the interview of Dot Net Developer Profile. Subject to Copyright.
 
