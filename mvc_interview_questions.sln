@@ -85,6 +85,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 - HTML Helpers in Core M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "html_helpers", "aspnet_core_mvc\20 - HTML Helpers in Core MVC\html_helpers\html_helpers.csproj", "{4AEDF599-5BEA-457C-9707-B51430AE2425}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "25 - Creating Custom Tag Helper", "25 - Creating Custom Tag Helper", "{77E515E2-E98F-40E5-B536-0AAC085DA436}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "custom_tag_helper", "aspnet_core_mvc\25 - Creating Custom Tag Helper\custom_tag_helper\custom_tag_helper.csproj", "{418BC896-BB5B-48DD-BDB5-E4A7B22A9165}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +175,10 @@ Global
 		{4AEDF599-5BEA-457C-9707-B51430AE2425}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AEDF599-5BEA-457C-9707-B51430AE2425}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AEDF599-5BEA-457C-9707-B51430AE2425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{418BC896-BB5B-48DD-BDB5-E4A7B22A9165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{418BC896-BB5B-48DD-BDB5-E4A7B22A9165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{418BC896-BB5B-48DD-BDB5-E4A7B22A9165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{418BC896-BB5B-48DD-BDB5-E4A7B22A9165}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -216,6 +224,8 @@ Global
 		{F60966FB-621F-4431-B8A5-F09AF941360A} = {0DF9F0DC-8B97-41C1-9520-5732F940DD99}
 		{8052871A-F483-49D4-A699-83E3F9696E55} = {C2DC1743-0D3B-407E-A0FB-464D060CB0D3}
 		{4AEDF599-5BEA-457C-9707-B51430AE2425} = {8052871A-F483-49D4-A699-83E3F9696E55}
+		{77E515E2-E98F-40E5-B536-0AAC085DA436} = {C2DC1743-0D3B-407E-A0FB-464D060CB0D3}
+		{418BC896-BB5B-48DD-BDB5-E4A7B22A9165} = {77E515E2-E98F-40E5-B536-0AAC085DA436}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6517531D-16FD-4F80-8221-B78FAAFCA8E7}
