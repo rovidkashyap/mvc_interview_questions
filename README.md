@@ -8,5 +8,4 @@
 6. What are `Partial Views` in ASP.Net Core MVC?
 7. Difference between `ASP.Net MVC` and ASP.Net Core MVC`?
 8. Difference between `IActionResult` vs `ActionResult` in ASP.Net Core MVC?
-9. How to add `Routes` to ASP.Net Core Application?
-10. What are the methods to add `Constraints` to Route?
+9. What are the methods to add `Constraints` to Route?
