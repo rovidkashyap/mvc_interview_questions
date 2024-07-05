@@ -1,0 +1,21 @@
+﻿@model partial_views.Controllers.MyPartialViewModel
+
+<p>This is from Home Controller Index View</p>
+
+<!-- Using `Render` Method -->
+@await Html.PartialAsync("../_MyPartialView")
+
+<!-- Using `RenderPartial` Method -->
+@{
+    Html.RenderPartial("../_MyPartialView"); 
+}
+
+<div>
+    <h1>Passing Data to Partial View using View Models </h1>
+    @await Html.PartialAsync("../_MyPartialView", Model)
+</div>
+
+<div>
+    <h1>Passing Data to Partial View using ViewData</h1>
+    @await Html.PartialAsync("../_MyPartialView")
+</div>
