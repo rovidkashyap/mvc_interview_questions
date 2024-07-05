@@ -49,6 +49,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11 - Lifecycle of Core MVC"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lifecycle_of_mvc", "aspnet_core_mvc\11 - Lifecycle of Core MVC\lifecycle_of_mvc\lifecycle_of_mvc.csproj", "{F7137A4D-A160-4647-8DE5-9DA16EEAF40E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12 - ReturnTypes in Core MVC", "12 - ReturnTypes in Core MVC", "{DCEDFD98-7910-46CC-B00E-F4C11D0A764C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "returntypes_in_core_mvc", "aspnet_core_mvc\12 - ReturnTypes in Core MVC\returntypes_in_core_mvc\returntypes_in_core_mvc.csproj", "{3EC1BFEE-476E-4902-B806-777A5D294DC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,10 @@ Global
 		{F7137A4D-A160-4647-8DE5-9DA16EEAF40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7137A4D-A160-4647-8DE5-9DA16EEAF40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7137A4D-A160-4647-8DE5-9DA16EEAF40E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC1BFEE-476E-4902-B806-777A5D294DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC1BFEE-476E-4902-B806-777A5D294DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC1BFEE-476E-4902-B806-777A5D294DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC1BFEE-476E-4902-B806-777A5D294DC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -126,6 +134,8 @@ Global
 		{09007305-4C3C-4D54-A4DA-5CA83837DD76} = {9EA395C6-DDA0-4B17-8FF2-EF491A80513A}
 		{4BE20776-A0A9-467C-AA27-3E2B5DF222D7} = {C2DC1743-0D3B-407E-A0FB-464D060CB0D3}
 		{F7137A4D-A160-4647-8DE5-9DA16EEAF40E} = {4BE20776-A0A9-467C-AA27-3E2B5DF222D7}
+		{DCEDFD98-7910-46CC-B00E-F4C11D0A764C} = {C2DC1743-0D3B-407E-A0FB-464D060CB0D3}
+		{3EC1BFEE-476E-4902-B806-777A5D294DC6} = {DCEDFD98-7910-46CC-B00E-F4C11D0A764C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6517531D-16FD-4F80-8221-B78FAAFCA8E7}
